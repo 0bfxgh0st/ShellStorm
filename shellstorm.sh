@@ -1,4 +1,4 @@
-#/bin/bash
+#!/bin/bash
 
 function _HEADER_(){
 printf "\e[0;33m"
