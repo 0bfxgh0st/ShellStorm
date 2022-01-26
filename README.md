@@ -1,5 +1,5 @@
 # ShellStorm
-Reverse shell generator  
+Automatic reverse/bind shell generator cheat sheet.  
 
 # Screenshots
 ![alt text](https://github.com/0bfxGH0ST/ShellStorm/blob/main/screenshots/screenshot01.png)  
