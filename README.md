@@ -1,7 +1,7 @@
 # ShellStorm
 Automatic reverse/bind shell generator cheat sheet.  
 
-Install requirements  
+* Install requirements  
 <pre>sudo apt-get update -y && sudo apt-get install default-jdk -y</pre>
 
 # Screenshots
