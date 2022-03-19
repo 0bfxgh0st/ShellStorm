@@ -1,4 +1,4 @@
-# ShellStorm
+GhhbmtzIHRvIGFsbCBwZW9wbGUgd2hvIGNvbnRyaWJ1dGVzIGFuZCBtYWtlcyB0ZWNobm9sb2d5IHBvc3NpYmxlLiBTcGVjaWFsIHRoYW5rcyB0byBUb2t5b25lb24gLCBQLkMuLCBTaGVsbGRyZWRkLCBTNHZpdGFyLCBXaWxkWmFyZWssIFdlYXBvblNob3RndW4u# ShellStorm
 Automatic reverse/bind shell generator cheat sheet.  
 
 A compilation of knowledge over the years from many pentesters that you will recognize  
@@ -43,6 +43,8 @@ war
 # Screenshots
 ![alt text](https://github.com/0bfxGH0ST/ShellStorm/blob/main/screenshots/screenshot01.png)  
 ![alt text](https://github.com/0bfxGH0ST/ShellStorm/blob/main/screenshots/screenshot2.png)  
+
+# TL;DR
 
 ## Try go further
 * In some cases you can download shellstorm in any 'target' machine with Linux kernel (or WSL) and execute it by piping it if you prefer.  
