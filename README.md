@@ -5,7 +5,6 @@ A compilation of knowledge over the years from many pentesters that you will rec
 after reading the source code to make the process of creating reverse and bind connections easier  
 for cybersecurity analysts.  
 
-# Demo
 ![alt text](https://github.com/0bfxgh0st/ShellStorm/blob/main/screenshots/shellstorm.gif)
 
 * Install requirements for generate **WAR** package.  
