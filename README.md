@@ -5,6 +5,9 @@ A compilation of knowledge over the years from many pentesters that you will rec
 after reading the source code to make the process of creating reverse and bind connections easier  
 for cybersecurity analysts.  
 
+# Demo
+![alt text](https://github.com/0bfxgh0st/ShellStorm/blob/main/screenshots/shellstorm.gif)
+
 * Install requirements for generate **WAR** package.  
 <pre>sudo apt-get update -y && sudo apt-get install default-jdk -y</pre>
 
@@ -39,11 +42,6 @@ socat
 telnet
 war
 </pre>
-
-# Screenshots
-![alt text](https://github.com/0bfxgh0st/ShellStorm/blob/main/screenshots/shellstorm.gif)
-<!--![alt text](https://github.com/0bfxGH0ST/ShellStorm/blob/main/screenshots/screenshot01.png)  
-![alt text](https://github.com/0bfxGH0ST/ShellStorm/blob/main/screenshots/screenshot2.png)  -->
 
 # TL;DR
 ## Try go further
