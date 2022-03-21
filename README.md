@@ -41,8 +41,9 @@ war
 </pre>
 
 # Screenshots
-![alt text](https://github.com/0bfxGH0ST/ShellStorm/blob/main/screenshots/screenshot01.png)  
-![alt text](https://github.com/0bfxGH0ST/ShellStorm/blob/main/screenshots/screenshot2.png)  
+![alt text](https://github.com/0bfxgh0st/ShellStorm/blob/main/screenshots/shellstorm.gif)
+<!--![alt text](https://github.com/0bfxGH0ST/ShellStorm/blob/main/screenshots/screenshot01.png)  
+![alt text](https://github.com/0bfxGH0ST/ShellStorm/blob/main/screenshots/screenshot2.png)  -->
 
 # TL;DR
 ## Try go further
